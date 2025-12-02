@@ -268,7 +268,6 @@ You can create CodePipeline using CloudFormation, the AWS Console, or the AWS CL
 - **CodeDeploy failing**: verify the ECS service uses `CODE_DEPLOY` deployment controller, the target groups and ALB are configured per CodeDeploy requirements.
 - **Task definition/roles**: execution role must have `ecr:GetAuthorizationToken`, `ecr:BatchGetImage`, `logs:CreateLogStream`, `logs:PutLogEvents`, and appropriate ECS permissions.
 
----
 
 
 
