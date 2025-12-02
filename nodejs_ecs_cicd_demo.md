@@ -270,18 +270,5 @@ You can create CodePipeline using CloudFormation, the AWS Console, or the AWS CL
 
 ---
 
-## 9) Next steps (optional)
 
-- Provide a CloudFormation template that creates the full pipeline + resources (ECR, ECS cluster, ALB, CodeDeploy resources). I can draft this for you if you want a ready-to-deploy template.
-- Add a GitHub Actions alternative if you prefer GitHub-native CI/CD.
-- Add an end-to-end integration test and Canary deployment strategy.
-
----
-
-If you want, I can now:
-
-- produce the CloudFormation template to create the pipeline and all dependent AWS resources (ECR, ECS cluster, ALB, target groups, CodeDeploy application and deployment group), or
-- generate a ZIP with all demo files so you can push directly to GitHub.
-
-Tell me which one you prefer and I will produce it immediately.
 
